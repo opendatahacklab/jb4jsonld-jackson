@@ -31,6 +31,7 @@ import cz.cvut.kbss.jsonld.deserialization.JsonLdDeserializer;
 import cz.cvut.kbss.jsonld.exception.JsonLdDeserializationException;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
