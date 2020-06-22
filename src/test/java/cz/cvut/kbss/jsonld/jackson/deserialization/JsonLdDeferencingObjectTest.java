@@ -34,7 +34,7 @@ public class JsonLdDeferencingObjectTest {
 	@Test
 	public void testTwoChildWithTwoDifferentProperties() throws IOException {
 		final ParentWithTwoChildren p = new ParentWithTwoChildren();
-
+		
 		final Child ca = new Child();
 		ca.setIri("http://example.org/a");
 		p.setHasChildA(ca);

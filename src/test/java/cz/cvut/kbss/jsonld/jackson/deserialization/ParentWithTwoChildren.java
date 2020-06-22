@@ -6,8 +6,10 @@ import java.util.Set;
 import cz.cvut.kbss.jopa.model.annotations.Id;
 import cz.cvut.kbss.jopa.model.annotations.OWLClass;
 import cz.cvut.kbss.jopa.model.annotations.OWLObjectProperty;
+import cz.cvut.kbss.jsonld.annotation.JsonLdAttributeOrder;
 
 @OWLClass(iri="http://example.org/ParentWithTwoChildren")
+//@JsonLdAttributeOrder({"hasChildA", "hasChildB"})
 public class ParentWithTwoChildren implements Serializable{
 	
 	public ParentWithTwoChildren() {
